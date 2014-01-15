@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.Set;
 
 
 public class CreateCombinations {
@@ -45,7 +44,7 @@ public class CreateCombinations {
 	
 	public static void main(String[] args) {
 		ArrayList<String> comb = new ArrayList<String>();
-		createCombinations("0?", 2 , comb);
+		createCombinations("000?", 4 , comb);
 		printSet(comb);
 	}
 }
